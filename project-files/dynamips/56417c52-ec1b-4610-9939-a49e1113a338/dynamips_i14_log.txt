@@ -1,0 +1,27 @@
+May 16 18:21:27.422 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+May 16 18:21:27.422 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 52456.
+May 16 18:21:27.938 HYPERVISOR: exec_cmd: hypervisor version 
+May 16 18:21:27.938 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Pedro Fajardo\GNS3\projects\AR\Projeto\untitled\project-files\dynamips 
+May 16 18:21:27.938 GENERAL: working_dir=C:\Users\Pedro Fajardo\GNS3\projects\AR\Projeto\untitled\project-files\dynamips
+May 16 18:21:27.938 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Pedro Fajardo\GNS3\projects\AR\Projeto\untitled\project-files\dynamips\593b2c56-1eb4-4af4-bc91-5fad6c7ec9d3 
+May 16 18:21:27.938 GENERAL: working_dir=C:\Users\Pedro Fajardo\GNS3\projects\AR\Projeto\untitled\project-files\dynamips\593b2c56-1eb4-4af4-bc91-5fad6c7ec9d3
+May 16 18:21:27.938 HYPERVISOR: exec_cmd: vm create ESW12 12 c3725 
+May 16 18:21:27.938 VM: VM ESW12 created.
+May 16 18:21:27.938 HYPERVISOR: exec_cmd: vm set_con_tcp_port ESW12 5057 
+May 16 18:21:27.938 HYPERVISOR: exec_cmd: c3725 get_mac_addr ESW12 
+May 16 18:21:27.938 HYPERVISOR: exec_cmd: vm set_disk0 ESW12 1 
+May 16 18:21:27.938 HYPERVISOR: exec_cmd: vm set_exec_area ESW12 64 
+May 16 18:21:27.938 HYPERVISOR: exec_cmd: vm get_status ESW12 
+May 16 18:21:27.938 HYPERVISOR: exec_cmd: vm set_idle_pc ESW12 0x60a68e70 
+May 16 18:21:27.938 HYPERVISOR: exec_cmd: vm set_ios ESW12 C:/Users/Pedro Fajardo/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+May 16 18:21:27.938 HYPERVISOR: exec_cmd: c3725 set_mac_addr ESW12 c20c.1ab4.0000 
+May 16 18:21:27.938 HYPERVISOR: exec_cmd: vm set_nvram ESW12 256 
+May 16 18:21:27.938 HYPERVISOR: exec_cmd: vm get_status ESW12 
+May 16 18:21:27.938 HYPERVISOR: exec_cmd: vm slot_add_binding ESW12 1 0 NM-16ESW 
+May 16 18:21:28.516 HYPERVISOR: exec_cmd: vm get_status ESW12 
+May 16 18:21:28.516 HYPERVISOR: exec_cmd: vm extract_config ESW12 
+May 16 18:21:28.516 HYPERVISOR: exec_cmd: vm delete ESW12 
+May 16 18:21:28.516 VM: VM ESW12 destroyed.
+May 16 18:21:28.532 HYPERVISOR: exec_cmd: hypervisor stop 
+May 16 18:21:28.938 HYPERVISOR: Stopped.
+May 16 18:21:28.938 GENERAL: reset done.

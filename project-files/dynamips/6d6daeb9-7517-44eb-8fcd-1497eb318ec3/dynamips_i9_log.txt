@@ -1,0 +1,65 @@
+May 18 13:29:40.404 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+May 18 13:29:40.404 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 45445.
+May 18 13:29:40.415 HYPERVISOR: exec_cmd: hypervisor version 
+May 18 13:29:40.415 HYPERVISOR: exec_cmd: hypervisor working_dir /home/bruno/Desktop/untitled/project-files/dynamips 
+May 18 13:29:40.415 GENERAL: working_dir=/home/bruno/Desktop/untitled/project-files/dynamips
+May 18 13:29:40.415 HYPERVISOR: exec_cmd: hypervisor working_dir /home/bruno/Desktop/untitled/project-files/dynamips/1221420a-3e7e-43e9-a8ba-00903074312a 
+May 18 13:29:40.415 GENERAL: working_dir=/home/bruno/Desktop/untitled/project-files/dynamips/1221420a-3e7e-43e9-a8ba-00903074312a
+May 18 13:29:40.415 HYPERVISOR: exec_cmd: vm create R3 5 c7200 
+May 18 13:29:40.416 VM: VM R3 created.
+May 18 13:29:40.416 HYPERVISOR: exec_cmd: vm set_con_tcp_port R3 5037 
+May 18 13:29:40.416 HYPERVISOR: exec_cmd: c7200 get_mac_addr R3 
+May 18 13:29:40.416 HYPERVISOR: exec_cmd: vm get_status R3 
+May 18 13:29:40.416 HYPERVISOR: exec_cmd: vm slot_add_binding R3 0 0 C7200-IO-FE 
+May 18 13:29:40.416 HYPERVISOR: exec_cmd: vm get_status R3 
+May 18 13:29:40.416 HYPERVISOR: exec_cmd: vm slot_add_binding R3 1 0 PA-2FE-TX 
+May 18 13:29:40.417 HYPERVISOR: exec_cmd: vm get_status R3 
+May 18 13:29:40.417 HYPERVISOR: exec_cmd: vm slot_add_binding R3 3 0 PA-2FE-TX 
+May 18 13:29:40.417 HYPERVISOR: exec_cmd: c7200 set_mac_addr R3 ca05.0bef.0000 
+May 18 13:29:40.417 HYPERVISOR: exec_cmd: vm set_ram R3 512 
+May 18 13:29:40.417 HYPERVISOR: exec_cmd: vm set_nvram R3 512 
+May 18 13:29:40.418 HYPERVISOR: exec_cmd: vm set_ios R3 /home/bruno/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+May 18 13:29:40.418 HYPERVISOR: exec_cmd: vm get_status R3 
+May 18 13:29:40.418 HYPERVISOR: exec_cmd: vm slot_add_binding R3 2 0 PA-2FE-TX 
+May 18 13:29:40.418 HYPERVISOR: exec_cmd: vm get_status R3 
+May 18 13:29:40.418 HYPERVISOR: exec_cmd: vm slot_remove_binding R3 0 0 
+May 18 13:29:40.418 HYPERVISOR: exec_cmd: vm get_status R3 
+May 18 13:29:40.418 HYPERVISOR: exec_cmd: vm slot_add_binding R3 0 0 C7200-IO-2FE 
+May 18 13:29:40.419 HYPERVISOR: exec_cmd: vm set_disk0 R3 0 
+May 18 13:29:40.419 HYPERVISOR: exec_cmd: vm get_status R3 
+May 18 13:29:40.419 HYPERVISOR: exec_cmd: vm set_idle_pc R3 0x60608040 
+May 18 13:29:41.231 HYPERVISOR: exec_cmd: nio create_udp udp-1aa70d72-93db-482d-bf61-d9bde3994e4c 10026 127.0.0.1 10027 
+May 18 13:29:41.250 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 1 0 udp-1aa70d72-93db-482d-bf61-d9bde3994e4c 
+May 18 13:29:41.250 HYPERVISOR: exec_cmd: vm get_status R3 
+May 18 13:29:43.340 HYPERVISOR: exec_cmd: nio create_udp udp-dffc2a8d-8665-44e1-8be4-c177a889b28b 10116 127.0.0.1 10117 
+May 18 13:29:43.341 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 2 0 udp-dffc2a8d-8665-44e1-8be4-c177a889b28b 
+May 18 13:29:43.341 HYPERVISOR: exec_cmd: vm get_status R3 
+May 18 13:29:43.920 HYPERVISOR: exec_cmd: nio create_udp udp-f0bb123d-bc15-4d67-8b9e-3c802bbf0509 10138 127.0.0.1 10139 
+May 18 13:29:43.921 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 1 1 udp-f0bb123d-bc15-4d67-8b9e-3c802bbf0509 
+May 18 13:29:43.922 HYPERVISOR: exec_cmd: vm get_status R3 
+May 18 13:31:05.800 HYPERVISOR: exec_cmd: vm get_status R3 
+May 18 13:31:05.800 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R3 1 0 
+May 18 13:31:05.801 HYPERVISOR: exec_cmd: nio delete udp-1aa70d72-93db-482d-bf61-d9bde3994e4c 
+May 18 13:31:06.144 HYPERVISOR: exec_cmd: vm get_status R3 
+May 18 13:31:06.144 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R3 1 1 
+May 18 13:31:06.145 HYPERVISOR: exec_cmd: nio delete udp-f0bb123d-bc15-4d67-8b9e-3c802bbf0509 
+May 18 13:31:12.915 HYPERVISOR: exec_cmd: vm set_ios R3 /home/bruno/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+May 18 13:31:38.656 HYPERVISOR: exec_cmd: nio create_udp udp-1c49cb30-3524-4afd-9541-292ec772825c 10024 127.0.0.1 10025 
+May 18 13:31:38.657 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 1 0 udp-1c49cb30-3524-4afd-9541-292ec772825c 
+May 18 13:31:38.657 HYPERVISOR: exec_cmd: vm get_status R3 
+May 18 13:32:02.076 HYPERVISOR: exec_cmd: nio create_udp udp-f3cd8521-aa10-4559-89c8-f527c14ae3d3 10050 127.0.0.1 10051 
+May 18 13:32:02.078 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 3 0 udp-f3cd8521-aa10-4559-89c8-f527c14ae3d3 
+May 18 13:32:02.078 HYPERVISOR: exec_cmd: vm get_status R3 
+May 18 13:35:15.808 HYPERVISOR: exec_cmd: vm set_ios R3 /home/bruno/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+May 18 13:35:18.136 HYPERVISOR: exec_cmd: vm set_ios R3 /home/bruno/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+May 18 13:35:22.334 HYPERVISOR: exec_cmd: vm set_ios R3 /home/bruno/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+May 18 13:35:22.616 HYPERVISOR: exec_cmd: vm set_ios R3 /home/bruno/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+May 18 13:36:35.462 HYPERVISOR: exec_cmd: vm get_status R3 
+May 18 13:36:35.464 HYPERVISOR: exec_cmd: vm extract_config R3 
+May 18 13:36:35.846 HYPERVISOR: exec_cmd: vm get_status R3 
+May 18 13:36:35.849 HYPERVISOR: exec_cmd: vm extract_config R3 
+May 18 13:36:35.851 HYPERVISOR: exec_cmd: vm delete R3 
+May 18 13:36:35.851 VM: VM R3 destroyed.
+May 18 13:36:35.853 HYPERVISOR: exec_cmd: hypervisor stop 
+May 18 13:36:36.014 HYPERVISOR: Stopped.
+May 18 13:36:36.014 GENERAL: reset done.

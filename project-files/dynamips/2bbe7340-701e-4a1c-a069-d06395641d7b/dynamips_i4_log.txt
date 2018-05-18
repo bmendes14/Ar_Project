@@ -1,0 +1,49 @@
+May 18 13:29:40.248 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+May 18 13:29:40.248 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 38363.
+May 18 13:29:40.259 HYPERVISOR: exec_cmd: hypervisor version 
+May 18 13:29:40.260 HYPERVISOR: exec_cmd: hypervisor working_dir /home/bruno/Desktop/untitled/project-files/dynamips 
+May 18 13:29:40.260 GENERAL: working_dir=/home/bruno/Desktop/untitled/project-files/dynamips
+May 18 13:29:40.260 HYPERVISOR: exec_cmd: ethsw create ES1 
+May 18 13:29:42.120 HYPERVISOR: exec_cmd: nio create_udp udp-8fff80c2-0880-4ee0-9ecc-41c59939b83c 10065 127.0.0.1 10064 
+May 18 13:29:42.120 HYPERVISOR: exec_cmd: ethsw add_nio ES1 udp-8fff80c2-0880-4ee0-9ecc-41c59939b83c 
+May 18 13:29:42.121 HYPERVISOR: exec_cmd: ethsw set_dot1q_port ES1 udp-8fff80c2-0880-4ee0-9ecc-41c59939b83c 1 
+May 18 13:29:42.269 HYPERVISOR: exec_cmd: nio create_udp udp-cd1f3c74-872b-4865-b88d-66946d721156 10072 127.0.0.1 10073 
+May 18 13:29:42.269 HYPERVISOR: exec_cmd: ethsw add_nio ES1 udp-cd1f3c74-872b-4865-b88d-66946d721156 
+May 18 13:29:42.282 HYPERVISOR: exec_cmd: ethsw set_dot1q_port ES1 udp-cd1f3c74-872b-4865-b88d-66946d721156 3 
+May 18 13:29:43.245 HYPERVISOR: exec_cmd: nio create_udp udp-018dcd8e-1a0d-4d95-a83c-6baa12fea0d6 10113 127.0.0.1 10112 
+May 18 13:29:43.245 HYPERVISOR: exec_cmd: ethsw add_nio ES1 udp-018dcd8e-1a0d-4d95-a83c-6baa12fea0d6 
+May 18 13:29:43.248 HYPERVISOR: exec_cmd: ethsw set_dot1q_port ES1 udp-018dcd8e-1a0d-4d95-a83c-6baa12fea0d6 1 
+May 18 13:29:44.101 HYPERVISOR: exec_cmd: nio create_udp udp-bf710294-1e57-4a55-8ec9-e7ed48a49f9c 10143 127.0.0.1 10142 
+May 18 13:29:44.101 HYPERVISOR: exec_cmd: ethsw add_nio ES1 udp-bf710294-1e57-4a55-8ec9-e7ed48a49f9c 
+May 18 13:29:44.112 HYPERVISOR: exec_cmd: ethsw set_dot1q_port ES1 udp-bf710294-1e57-4a55-8ec9-e7ed48a49f9c 2 
+May 18 13:30:17.664 HYPERVISOR: exec_cmd: nio create_udp udp-bbbfecec-96ea-4158-b0d4-b64280f575da 10176 127.0.0.1 10177 
+May 18 13:30:17.665 HYPERVISOR: exec_cmd: ethsw add_nio ES1 udp-bbbfecec-96ea-4158-b0d4-b64280f575da 
+May 18 13:30:17.674 HYPERVISOR: exec_cmd: ethsw set_access_port ES1 udp-bbbfecec-96ea-4158-b0d4-b64280f575da 1 
+May 18 13:30:25.021 HYPERVISOR: exec_cmd: nio create_udp udp-c1df63ca-4b66-4990-b18b-ab74050ee0cf 10180 127.0.0.1 10181 
+May 18 13:30:25.022 HYPERVISOR: exec_cmd: ethsw add_nio ES1 udp-c1df63ca-4b66-4990-b18b-ab74050ee0cf 
+May 18 13:30:25.023 HYPERVISOR: exec_cmd: ethsw set_access_port ES1 udp-c1df63ca-4b66-4990-b18b-ab74050ee0cf 1 
+May 18 13:34:48.331 HYPERVISOR: exec_cmd: ethsw remove_nio ES1 udp-bf710294-1e57-4a55-8ec9-e7ed48a49f9c 
+May 18 13:34:48.351 HYPERVISOR: exec_cmd: nio delete udp-bf710294-1e57-4a55-8ec9-e7ed48a49f9c 
+May 18 13:34:48.438 HYPERVISOR: exec_cmd: ethsw remove_nio ES1 udp-cd1f3c74-872b-4865-b88d-66946d721156 
+May 18 13:34:48.509 HYPERVISOR: exec_cmd: nio delete udp-cd1f3c74-872b-4865-b88d-66946d721156 
+May 18 13:34:48.659 HYPERVISOR: exec_cmd: ethsw remove_nio ES1 udp-8fff80c2-0880-4ee0-9ecc-41c59939b83c 
+May 18 13:34:48.672 HYPERVISOR: exec_cmd: nio delete udp-8fff80c2-0880-4ee0-9ecc-41c59939b83c 
+May 18 13:34:58.526 HYPERVISOR: exec_cmd: ethsw set_access_port ES1 udp-bbbfecec-96ea-4158-b0d4-b64280f575da 1 
+May 18 13:34:58.535 HYPERVISOR: exec_cmd: ethsw set_access_port ES1 udp-c1df63ca-4b66-4990-b18b-ab74050ee0cf 1 
+May 18 13:34:58.615 HYPERVISOR: exec_cmd: ethsw set_dot1q_port ES1 udp-018dcd8e-1a0d-4d95-a83c-6baa12fea0d6 1 
+May 18 13:35:14.800 HYPERVISOR: exec_cmd: ethsw set_access_port ES1 udp-bbbfecec-96ea-4158-b0d4-b64280f575da 1 
+May 18 13:35:14.814 HYPERVISOR: exec_cmd: ethsw set_access_port ES1 udp-c1df63ca-4b66-4990-b18b-ab74050ee0cf 1 
+May 18 13:35:14.892 HYPERVISOR: exec_cmd: ethsw set_dot1q_port ES1 udp-018dcd8e-1a0d-4d95-a83c-6baa12fea0d6 1 
+May 18 13:35:17.083 HYPERVISOR: exec_cmd: ethsw set_access_port ES1 udp-bbbfecec-96ea-4158-b0d4-b64280f575da 1 
+May 18 13:35:17.093 HYPERVISOR: exec_cmd: ethsw set_access_port ES1 udp-c1df63ca-4b66-4990-b18b-ab74050ee0cf 1 
+May 18 13:35:17.174 HYPERVISOR: exec_cmd: ethsw set_dot1q_port ES1 udp-018dcd8e-1a0d-4d95-a83c-6baa12fea0d6 1 
+May 18 13:35:19.904 HYPERVISOR: exec_cmd: ethsw set_access_port ES1 udp-bbbfecec-96ea-4158-b0d4-b64280f575da 1 
+May 18 13:35:19.985 HYPERVISOR: exec_cmd: ethsw set_access_port ES1 udp-c1df63ca-4b66-4990-b18b-ab74050ee0cf 1 
+May 18 13:35:20.005 HYPERVISOR: exec_cmd: ethsw set_dot1q_port ES1 udp-018dcd8e-1a0d-4d95-a83c-6baa12fea0d6 1 
+May 18 13:35:22.607 HYPERVISOR: exec_cmd: ethsw set_access_port ES1 udp-bbbfecec-96ea-4158-b0d4-b64280f575da 1 
+May 18 13:35:22.612 HYPERVISOR: exec_cmd: ethsw set_access_port ES1 udp-c1df63ca-4b66-4990-b18b-ab74050ee0cf 1 
+May 18 13:35:22.626 HYPERVISOR: exec_cmd: ethsw set_dot1q_port ES1 udp-018dcd8e-1a0d-4d95-a83c-6baa12fea0d6 1 
+May 18 13:36:35.511 HYPERVISOR: exec_cmd: ethsw delete ES1 
+May 18 13:36:35.567 HYPERVISOR: exec_cmd: hypervisor stop 
+May 18 13:36:35.842 HYPERVISOR: Stopped.
+May 18 13:36:35.843 GENERAL: reset done.

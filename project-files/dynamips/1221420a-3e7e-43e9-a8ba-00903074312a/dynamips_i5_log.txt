@@ -1,0 +1,44 @@
+May 18 13:29:40.273 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+May 18 13:29:40.273 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 40697.
+May 18 13:29:40.284 HYPERVISOR: exec_cmd: hypervisor version 
+May 18 13:29:40.284 HYPERVISOR: exec_cmd: hypervisor working_dir /home/bruno/Desktop/untitled/project-files/dynamips 
+May 18 13:29:40.284 GENERAL: working_dir=/home/bruno/Desktop/untitled/project-files/dynamips
+May 18 13:29:40.284 HYPERVISOR: exec_cmd: hypervisor working_dir /home/bruno/Desktop/untitled/project-files/dynamips/56417c52-ec1b-4610-9939-a49e1113a338 
+May 18 13:29:40.284 GENERAL: working_dir=/home/bruno/Desktop/untitled/project-files/dynamips/56417c52-ec1b-4610-9939-a49e1113a338
+May 18 13:29:40.284 HYPERVISOR: exec_cmd: vm create ESW14 14 c3725 
+May 18 13:29:40.284 VM: VM ESW14 created.
+May 18 13:29:40.284 HYPERVISOR: exec_cmd: vm set_con_tcp_port ESW14 5059 
+May 18 13:29:40.285 HYPERVISOR: exec_cmd: c3725 get_mac_addr ESW14 
+May 18 13:29:40.285 HYPERVISOR: exec_cmd: vm get_status ESW14 
+May 18 13:29:40.285 HYPERVISOR: exec_cmd: vm slot_add_binding ESW14 1 0 NM-16ESW 
+May 18 13:29:40.285 HYPERVISOR: exec_cmd: c3725 set_mac_addr ESW14 c20e.0774.0000 
+May 18 13:29:40.285 HYPERVISOR: exec_cmd: vm set_nvram ESW14 256 
+May 18 13:29:40.286 HYPERVISOR: exec_cmd: vm set_ios ESW14 /home/bruno/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+May 18 13:29:40.286 HYPERVISOR: exec_cmd: vm set_disk0 ESW14 1 
+May 18 13:29:40.286 HYPERVISOR: exec_cmd: vm get_status ESW14 
+May 18 13:29:40.286 HYPERVISOR: exec_cmd: vm set_idle_pc ESW14 0x60a68e70 
+May 18 13:29:40.785 HYPERVISOR: exec_cmd: nio create_udp udp-ed1504d7-0c70-4e4c-a4bf-efd67363b097 10002 127.0.0.1 10003 
+May 18 13:29:40.805 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW14 1 11 udp-ed1504d7-0c70-4e4c-a4bf-efd67363b097 
+May 18 13:29:40.805 HYPERVISOR: exec_cmd: vm get_status ESW14 
+May 18 13:29:41.034 HYPERVISOR: exec_cmd: nio create_udp udp-deebcff8-e6ad-40f8-98ad-0eb722c2e46b 10014 127.0.0.1 10015 
+May 18 13:29:41.035 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW14 1 1 udp-deebcff8-e6ad-40f8-98ad-0eb722c2e46b 
+May 18 13:29:41.035 HYPERVISOR: exec_cmd: vm get_status ESW14 
+May 18 13:29:41.126 HYPERVISOR: exec_cmd: nio create_udp udp-6a9abeb4-a814-4ab3-8969-eaf0204bc3ba 10018 127.0.0.1 10019 
+May 18 13:29:41.127 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW14 1 12 udp-6a9abeb4-a814-4ab3-8969-eaf0204bc3ba 
+May 18 13:29:41.128 HYPERVISOR: exec_cmd: vm get_status ESW14 
+May 18 13:29:41.967 HYPERVISOR: exec_cmd: nio create_udp udp-a2afded5-0e53-4bbc-9d38-56fb327efc5e 10060 127.0.0.1 10061 
+May 18 13:29:41.968 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW14 1 3 udp-a2afded5-0e53-4bbc-9d38-56fb327efc5e 
+May 18 13:29:41.968 HYPERVISOR: exec_cmd: vm get_status ESW14 
+May 18 13:35:15.374 HYPERVISOR: exec_cmd: vm set_ios ESW14 /home/bruno/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+May 18 13:35:17.740 HYPERVISOR: exec_cmd: vm set_ios ESW14 /home/bruno/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+May 18 13:35:21.252 HYPERVISOR: exec_cmd: vm set_ios ESW14 /home/bruno/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+May 18 13:35:21.840 HYPERVISOR: exec_cmd: vm set_ios ESW14 /home/bruno/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+May 18 13:36:35.486 HYPERVISOR: exec_cmd: vm get_status ESW14 
+May 18 13:36:35.488 HYPERVISOR: exec_cmd: vm extract_config ESW14 
+May 18 13:36:35.891 HYPERVISOR: exec_cmd: vm get_status ESW14 
+May 18 13:36:35.893 HYPERVISOR: exec_cmd: vm extract_config ESW14 
+May 18 13:36:35.894 HYPERVISOR: exec_cmd: vm delete ESW14 
+May 18 13:36:35.894 VM: VM ESW14 destroyed.
+May 18 13:36:35.896 HYPERVISOR: exec_cmd: hypervisor stop 
+May 18 13:36:36.370 HYPERVISOR: Stopped.
+May 18 13:36:36.370 GENERAL: reset done.
