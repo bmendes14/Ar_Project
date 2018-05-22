@@ -1,9 +1,2 @@
-# This the configuration for PC-17
-#
-# Uncomment the following line to enable DHCP
-# dhcp
-# or the line below to manually setup an IP address and subnet mask
-# ip 192.168.1.1 255.0.0.0
-#
-
 set pcname PC-17
+ip 10.21.21.3 10.21.21.251 24
